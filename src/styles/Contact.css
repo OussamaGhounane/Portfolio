@@ -1,0 +1,67 @@
+.container {
+    width: 60%;
+    margin: auto;
+    font-family: 'Trebuchet MS';
+    margin-top: 90px;
+}
+
+textarea {
+    height: 150px;
+    border: none;
+}
+
+input {
+    width: 450px;
+    margin: auto;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+}
+
+input:focus {
+    border: none;
+}
+
+label {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+form {
+    display: grid;
+    justify-content: start;
+    text-align: start;
+}
+
+.submit {
+    margin-top: 50px;
+    background-color: #00C9FF;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    form {
+        display: grid;
+        justify-content: center;
+
+    }
+
+    input {
+        width: 250px;
+        margin: auto;
+        height: 30px;
+        border: none;
+        border-radius: 15px;
+    }
+
+}

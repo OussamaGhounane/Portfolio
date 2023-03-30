@@ -1,0 +1,45 @@
+.aboutMe {
+    font-family: 'Trebuchet MS';
+    margin-top: 60px;
+}
+
+.aboutMe h1 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.aboutMe .content {
+    width: 70%;
+    margin: auto;
+    background-color: aqua;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.aboutMe .content h2 {
+    font-size: 50px;
+}
+
+.aboutMe .content p {
+    text-align: center;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 700px) {
+    .aboutMe h1 {
+        font-size: 40px;
+    }
+
+    .aboutMe .content h2 {
+        font-size: 30px;
+    }
+
+    .aboutMe .content p {
+        font-size: 19px;
+    }
+
+    .aboutMe .content{
+        width: 60%;
+        margin: auto;
+    }
+}

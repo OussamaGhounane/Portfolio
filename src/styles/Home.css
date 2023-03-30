@@ -1,0 +1,173 @@
+.Home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-family: 'Helvetica';
+    margin-top: 100px;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.pres {
+    color: rgb(128, 119, 119);
+    text-align: justify;
+    width: 45%;
+    height: 100%;
+    margin-left: 50px;
+    font-size: 33px;
+    padding: 0 15px;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.avatar {
+    width: 50%;
+}
+
+.avatar img {
+    width: 70%;
+    height: 400px;
+}
+
+.pres span {
+    color: #000;
+}
+
+.pres button {
+    border: none;
+    background-color: #000;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.mail {
+    width: 40px;
+    height: 40px;
+}
+
+.socialMedia {
+    margin-left: 45px;
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
+}
+
+.socialMedia img {
+    padding: 0 15px;
+}
+
+li {
+    list-style: none;
+}
+
+.list li img {
+    width: 150px;
+    height: 150px;
+    margin: 0 0;
+}
+
+.skills {
+    width: 100%;
+    font-family: 'Trebuchet MS';
+}
+
+.swiper {
+    width: 40%;
+    margin: auto;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skills h1 {
+    margin-bottom: 100px;
+    font-size: 70px;
+}
+
+.skills h2 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    color: #999797;
+}
+
+@media only screen and (max-width:1086px) {
+    .pres {
+        font-size: 25px;
+    }
+
+    .avatar {
+        width: 50%;
+        margin: auto;
+        margin-top: -25px;
+    }
+
+    .socialMedia {
+        margin-top: -50px;
+    }
+
+}
+
+@media only screen and (max-width:1021px) {
+    .Home {
+        flex-direction: row;
+    }
+
+    .pres {
+        font-size: 25px;
+    }
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .Home {
+        flex-direction: column;
+    }
+
+    .pres {
+        width: 50%;
+        height: 100%;
+        margin: auto;
+        font-size: 20px;
+    }
+
+    .avatar {
+        width: 100%;
+    }
+
+    .socialMedia {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .pres {
+        font-size: 15px;
+    }
+
+    .avatar {
+        width: 100%;
+    }
+
+    .swiper {
+        width: 100%;
+    }
+}
+
+.swiper-button-next::after {
+    color: #00C9FF;
+}
+
+.swiper-button-prev::after {
+    color: #00C9FF;
+}
